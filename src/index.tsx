@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Todo from "./todo";
+import Counter from "./counter";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Todo />
+    <Counter />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -14,7 +14,7 @@ const Todo = () => {
       <h4>Student List</h4>
       <div className="studentList">
         {
-          students.map((student) => <Student stud={student} isLiked={false} />)
+          students.map((student, idx) => idx%2 === 0 && <Student key={`stud_${idx}`} stud={student} isLiked={false} />)
         }
       </div>
     </>
